@@ -1,0 +1,322 @@
+body{
+    margin:0;
+    font-family:"Open sans",Arial;
+}
+/*MENU TOP*/
+header{
+    background-color:#01203d;
+    height: 130px;
+    margin:0 auto;
+    width:1280px;
+}
+.menu-head-top{
+    width:1155px;
+    margin:0 auto;
+}
+.menu-top-signin{
+    float:right;
+    margin-top:37px;
+}
+.menu-top-signin span{
+    color:#66798a;
+}
+.menu-top-signin a{
+    color:#008cba;
+    margin-left:10px;
+    text-decoration:none;
+}
+/*MENU HEADING*/
+nav{
+    clear: both;
+    margin: 0 auto;
+    width: 1155px;
+    height:75px;
+    line-height:75px;
+}
+nav .logo{
+    float:left;
+}
+nav .logo img{
+    margin-top:25px;
+}
+.menu-items ul{
+    list-style: none;
+}
+.menu-items ul li{
+    float: left;
+    margin: 0 15px;
+}
+.menu-items ul li a{
+    color:#94a5b4;
+    text-decoration:none;
+}
+
+nav .menu-buttons{
+    float:right;
+}
+nav .menu-buttons span{
+    font-size:18px;
+    color:#fff;
+    margin-right:40px;
+    font-weight:bold
+}
+.menu-buttons span img{
+    margin-right:5px;
+}
+
+nav .menu-buttons button{
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3px;
+    color:#fff;
+    font-size:14px;
+    text-transform: uppercase;
+    padding: 10px 25px
+}
+nav .menu-buttons .btn-demo{
+    background-color:transparent;
+    border-color: #1a363c;
+}
+
+nav .menu-buttons .btn-sign {
+    margin-left:14px;
+    background:#81bc1e;
+    border-color: #81bc1e;
+}
+/*For Banner*/
+.banner{
+    background:url(../images/background.png);
+    background-size: cover;
+    width:1280px;
+    height:410px;
+    margin: 0 auto;
+}
+/*Registration form*/
+
+.registration form{
+    padding:30px;
+    width:475px;
+    background-color:#034888;
+    color:#fff;
+    height: 350px;
+}
+
+.registration form h1{
+    font-size: 38px;
+    font-weight: 800;
+    margin: 0;
+    padding:0;
+}
+
+.registration form p{
+    font-size: 12px;
+    margin-top:10px;
+    padding:0;
+}
+
+.registration form input{
+    color:#8f8d8d;
+    line-height: 38px;
+    font-size: 12px;
+    border-radius: 3px;
+    border: 0;
+    margin:10px 0;
+    padding-left: 5px
+}
+
+.registration form input[type=email]{
+    width: 449px;
+}
+.registration form input[type=password],.registration form input[type=tel]{
+    width: 218px;
+}
+.registration form input[type=tel]{
+    margin-left: 8px;
+}
+
+.registration form button{
+    color:#fff;
+    text-shadow: 1px 1px 0px #9e9d9d;
+    padding:10px 0;
+    width:223px;
+    border-radius: 3px;
+    border:0;
+    margin:0;
+    box-shadow: 0 0 2px #094073;
+    height:65px;
+}
+
+.registration form button[type=submit]{
+    background-color:#e0741d;
+}
+
+.registration form button[type=button]{
+    margin-left:5px;
+    background-color:#72a61a;
+}
+.registration form button strong{
+    text-transform: uppercase;
+    font-size:19px;
+    display:block;
+}
+.registration form button small{
+    font-size: 8px;
+}
+.registration form .term{
+    font-size: 9px;
+    padding-left:30px;
+}
+/*Customer List*/
+.customer-list{
+    list-style: none;
+    margin-left: 96px;
+    margin-top:24px
+}
+.customer-list li{
+    float: left;
+    margin: 0 15px;
+}
+.customer-list>li>img{
+  width: 90px;
+}
+.customer-list > li:first-child{
+    padding-left:0;
+    padding-right:56px;
+}
+.customer-list > li:first-child h5{
+    text-transform: uppercase;
+    color: #686767;
+    font-weight: 600;    
+}
+/*Features*/
+hr{
+    clear:both;
+    border:none;
+    border-top: 1px solid #ddd;
+    background:none;
+    width:1280px;
+}
+.features{
+  clear:both;
+}
+.features .slogan{
+    text-align:center;
+}
+.features .slogan{
+  font-size:23px;
+  padding: 40px 0;
+}
+.features .slogan > strong{
+  font-weight:bold;
+}
+.features .slogan > span{
+  color:#3f3f3f;
+}
+
+.features ul{
+    list-style: none;
+    padding:0;
+    margin:0 auto;
+    width:1164px;
+    
+}
+.features ul li{
+    float:left;
+    width:217px;
+    padding:0 37px;
+    text-align:center;
+}
+.features ul li img{
+  height:100px;
+}
+
+.features ul li h4,.features ul li p{
+  text-align:left;
+    font-style:normal;
+    font-weight:normal;
+}
+
+.features ul li h4{
+    font-size:18px;
+    color:#0f5599;
+    
+}
+
+.features ul li p{
+  font-size:14px;
+  color:#686767;
+}
+
+/*TESTIMONIALs*/
+.testimonial{
+    clear:both;
+    width:1090px;
+    margin:0 auto;
+}
+
+.testimonial blockquote{
+    margin:0;
+    padding:20px 0;
+    font-size:19px;
+}
+
+.testimonial blockquote footer{
+    text-transform: uppercase;
+    font-size:12px;
+    font-weight:bold;
+    color:#ababab;
+}
+
+.testimonial .left{
+    width:70%;
+    float:left;
+}
+.testimonial .right{
+    width:30%;
+    float:right;
+    text-align:right;
+}
+/*FOOTERS*/
+footer{
+    clear:both;
+    width:1090px;
+    margin: 0 auto;
+    font-size: 10px;
+}
+footer > p{
+    clear:both;
+    line-height:40px;
+}
+footer ul{
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+footer ul li{
+    float:left;
+    width:250px;
+    padding:0;
+}
+footer > ul >li:last-child{
+    padding-left:80px;
+}
+footer > ul >li:last-child p{
+    margin:0;
+    padding-bottom: 10px;
+}
+footer ul li strong{
+    text-transform: uppercase;
+    line-height: 40px;
+}
+footer ul li >ul{
+    
+}
+footer ul li >ul > li{
+    clear: both;
+    padding: 0;
+}
+footer ul li a,footer ul li a:active{
+    text-decoration: none;
+    display: block;
+    color:#008cba;
+}
